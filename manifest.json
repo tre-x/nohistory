@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "nohistory",
+  "description": "Easily trigger history logging on/off",
+  "version": "1.0.0",
+  "author": "tre-x",
+  "browser_action": {
+    "default_icon": {
+      "16": "16.png",
+      "48": "48.png",
+      "128": "128.png"
+    }
+  },
+  "icons": {
+    "16": "16.png",
+    "48": "48.png",
+    "128": "128.png"
+  },
+  "background": {
+        "scripts": ["main.js"]
+  },
+  "permissions": [
+      "history"
+  ]
+}
